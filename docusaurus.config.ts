@@ -37,16 +37,9 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/vvvbbbcz/CMCS/edit/master',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        theme: {
+	theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
@@ -55,11 +48,11 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'CMCS',
       logo: {
-        alt: 'My Site Logo',
+        alt: '网站 Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -67,7 +60,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '正文',
         },
         {
           href: 'https://github.com/vvvbbbcz/cmcs',
@@ -78,7 +71,10 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `© ${new Date().getFullYear()} CMCS. Built with Docusaurus.`,
+      copyright: ''.concat(
+          `© ${new Date().getFullYear()} CMCS`, ` | `,
+          `使用 <a href="https://docusaurus.io/">Docusaurus</a> 构建`,
+      ),
     },
     prism: {
       theme: prismThemes.github,

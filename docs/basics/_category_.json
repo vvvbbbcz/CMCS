@@ -1,8 +1,8 @@
 {
   "label": "入门部分",
-  "position": 2,
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "电脑最基本的使用教程"
   }
 }
