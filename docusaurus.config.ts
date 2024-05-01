@@ -28,6 +28,11 @@ const config: Config = {
     locales: ['zh-Hans'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
