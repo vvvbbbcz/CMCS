@@ -33,6 +33,18 @@ const config: Config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
+//  scripts: [
+//	  {
+//		  src: '/js/main.js',
+//		  async: true,
+//		  defer: true
+//	  },
+//  ],
+  
+//  clientModules: [
+//    require.resolve('./custom.js'),
+//  ],
+
   presets: [
     [
       'classic',
